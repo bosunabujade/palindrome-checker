@@ -41,7 +41,7 @@ img {
 }
 
 body {
-  background: var(--light-blue);
+  background: linear-gradient(#b03060, #b04030);
 }
 
 .main {
@@ -63,7 +63,7 @@ input {
   width: 70%;
   border: none;
   outline: none;
-  border-bottom: 2px solid var(--color-sec);
+  border-bottom: 2px solid #b03060;
   padding: 1rem 5px;
   font-size: 1.6rem;
 }
@@ -74,8 +74,9 @@ button {
   outline: none;
   border-radius: 3px;
   color: var(--white);
-  background: var(--color-primary);
+  background: #b04030;
   cursor: pointer;
+  margin-left: 10px ;
 }
 
 p.result {
